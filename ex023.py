@@ -1,0 +1,5 @@
+numero = '0000' + str(input('Digite um número de 0 a 9999: '))
+print(f'O numero digitado tem {numero[-1]} unidades.')
+print(f'O numero digitado tem {numero[-2]} dezenas.')
+print(f'O numero digitado tem {numero[-3]} centenas.')
+print(f'O numero digitado tem {numero[-4]} milhares')
